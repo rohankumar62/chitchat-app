@@ -1,0 +1,54 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#card{
+    background-color: rgba(255, 0, 0, 0.522);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#card>input{
+    height: 40px;
+    width: 270px;
+    border: 1px solid white;
+    font-size: 18px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#card>button{
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 70px;
+    font-weight: 600;
+}
+
+#card>Link{
+    color: white;
+}
+
+a:-webkit-any-link {
+    color: white;
+}
